@@ -18,7 +18,6 @@ options.add_argument('--headless')
 options.add_argument('--no-sandbox')
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--test-type')
-options.add_argument('--headless')
 options.add_argument('--window-size=1280,3000')
 
 driver = webdriver.Chrome(CHROME_DRIVER, options=options)
