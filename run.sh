@@ -1,0 +1,1 @@
+docker run -it --rm --name ds -d --env-file=$(pwd)/.env ds:latest
